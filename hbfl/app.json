@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/fu1/fu1",
+    "pages/fu2/fu2",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"drak",
+    "navigationBarBackgroundColor": "#3b414c",
+    "navigationBarTitleText": "花瓣福利",
+    "navigationBarTextStyle":"#f6c63f",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "福利1",
+      "iconPath":"img/1.png",
+      "selectedIconPath":"img/2.png"
+    }, 
+    {
+      "pagePath": "pages/fu1/fu1",
+      "text": "福利2",
+      "iconPath":"img/3.png",
+      "selectedIconPath":"img/4.png"
+    }, 
+    {
+      "pagePath": "pages/fu2/fu2",
+      "text": "福利3",
+      "iconPath":"img/5.png",
+      "selectedIconPath":"img/6.png"
+    }, 
+    {
+      "pagePath": "pages/logs/logs",
+      "text": "福利4",
+      "iconPath":"img/7.png",
+      "selectedIconPath":"img/8.png"
+    }],
+    "color": "#fff",
+    "selectedColor": "#f6c63f",
+    "backgroundColor": "#3b414c"
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true
+}

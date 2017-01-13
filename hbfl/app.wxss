@@ -1,0 +1,34 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+page{
+  background:#3b414c 
+}
+.box{
+  margin: 10px;
+  background: rgb(242, 242, 242);
+  border-radius: 7px;
+  box-shadow: 0 0 8px #ccc;
+  padding-bottom: 5px;
+  overflow: hidden
+
+}
+.box text{
+  padding-left:10px;
+  height: 30px;
+  line-height: 30px;
+  font-size: 18px;
+  font-family: "微软雅黑" 
+}
+.box image{
+  width: 95%;
+  display: block;
+  margin: 0 auto
+}

@@ -1,0 +1,4 @@
+<view class="box" wx:for="{{dataList}}" wx:if="{{item.thumb}}">
+  <text>title:{{item.title}}</text>
+  <image mode="widthFix" src="{{item.thumb}}"></image>
+</view>
